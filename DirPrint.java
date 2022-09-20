@@ -1,5 +1,6 @@
 import java.io.File;
 import java.util.Scanner;
+
 class DirPrint {  
     public static void main(String args[]){ 
         String Dir;
@@ -23,7 +24,7 @@ class DirPrint {
         else{
             Dir = args[0];
         } 
-        printAllSub(Dir);         
+        printAllSub(Dir);           
     }
     
     public static void printAllSub(String Dir) {
