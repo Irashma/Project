@@ -53,9 +53,10 @@ public class ExServer {
         
         //create list of all the files and directories in the root directory
         File[] allFiles = rootDir.listFiles();
+              //check if root directory exist and not empty          
+              if (allFiles != null){  
                 //go throw all the files in the root direcrory 
                 for (File file : allFiles) {
-                    
                     if (file.isDirectory()){
                         //if the file is directory write it to client and execute printAllSub method for this directory 
                         writer.println("Dir:" + file.getAbsolutePath());
@@ -65,5 +66,6 @@ public class ExServer {
                         //if the file is a file and not directory so write it to client
                         writer.println("File:" + file.getAbsolutePath());
                 } 
+              }
 	}
 }
