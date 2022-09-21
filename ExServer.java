@@ -33,7 +33,7 @@ public class ExServer {
 
                 //read the root directory from the client
                 String rootDir = reader.readLine();
-
+                System.out.println(rootDir);
                 //run recursive printAllSub method 
                 printAllSub(rootDir,writer);
                 
