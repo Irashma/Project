@@ -2,9 +2,9 @@ import java.io.*;
 import java.net.*;
 
 /*
- * The program get one argument (port) 
- * create a socket server
- * when clint conected it read directory from the client
+ * The program gets one argument (port) 
+ * Create a socket server
+ * when client connected it read directory from the client
  * and write to the client all the sub folders and files for the provided directory
  * 
  */
