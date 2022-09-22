@@ -2,8 +2,8 @@ import java.net.*;
 import java.io.*;
 
 /*
- * The program got 3 arguments (host port and directory)
- * connect to the server and send the directory to the server
+ * The program get 3 arguments (host port and directory)
+ * connects to the server and sends the directory to the server
  * 
  * Then read all the sub folders and files for the provided directory from the server
  * 
